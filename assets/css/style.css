@@ -2,7 +2,14 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
 }
-
+body:-webkit-scrollbar {
+    width: 5px;
+    height: 0;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: #747879;
+    border-radius: 3px;
+}
 a {
   color: #009961;
   text-decoration: none;
