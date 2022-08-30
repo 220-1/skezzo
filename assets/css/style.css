@@ -1,6 +1,9 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -ms-overflow-style: none;
 }
 body:-webkit-scrollbar {
     width: 5px;
