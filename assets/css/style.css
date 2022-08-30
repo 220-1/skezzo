@@ -5,13 +5,13 @@ html,body {
   overflow-y: auto;
   -ms-overflow-style: none;
 }
-html::-webkit-scrollbar,body:-webkit-scrollbar {
-    width: 5px;
+html::-webkit-scrollbar,body::-webkit-scrollbar {
+    width: 8px;
     height: 0;
 }
 html::-webkit-scrollbar-thumb,body::-webkit-scrollbar-thumb{
-    background-color: #747879;
-    border-radius: 3px;
+    background-color: #007047;
+    border-radius: 0px;
 }
 a {
   color: #009961;
