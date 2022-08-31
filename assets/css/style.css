@@ -1,8 +1,18 @@
-body {
+html,body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -ms-overflow-style: none;
 }
-
+html::-webkit-scrollbar,body::-webkit-scrollbar {
+    width: 8px;
+    height: 0;
+}
+html::-webkit-scrollbar-thumb,body::-webkit-scrollbar-thumb{
+    background-color: #747879;
+    border-radius: 0px;
+}
 a {
   color: #009961;
   text-decoration: none;
